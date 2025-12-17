@@ -1,6 +1,7 @@
-MinGen is a program that uses 2 highly volnurable exploits Gener7 and MCSploit.
-Gener7 is a exploit found when generation the license key.
-What the exploit does, is generate the key and send it to the server.
-MCSploit is a custom exploit that uses Gener7 to control the key and export it.
-The exploit Gener7 has been around for years and only now, has it been found.
-I dont think the exploit will be there for a long this since im releasing the program to the public.
+MinGen is a program that leverages two highly vulnerable exploits: Gener7 and MCSploit.
+
+Gener7 is an exploit discovered during the license key generation process. It works by generating a valid license key and transmitting it directly to the authentication server, bypassing standard validation checks.
+
+MCSploit is a custom-built exploit that builds on Gener7, allowing full control over the generated key and enabling it to be exported for external use. By chaining these two exploits together, MinGen is able to reliably retrieve usable license keys.
+
+The Gener7 exploit has existed unnoticed for years and has only recently been identified. However, due to MinGen being released publicly, it is unlikely that this vulnerability will remain unpatched for long.
